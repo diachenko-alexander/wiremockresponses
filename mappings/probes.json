@@ -1,0 +1,23 @@
+{
+   "mappings": [
+       {
+           "request": {
+               "method": "GET",
+               "url": "/liveness"
+           },
+           "response": {
+               "status": 200,
+               "body": "liveness ok"
+           }
+       },
+       {
+           "request": {
+               "url": "/readiness"
+           },
+           "response": {
+               "status": 200,
+               "body": "readiness ok"
+           }
+       }
+   ]
+}

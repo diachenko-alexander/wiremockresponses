@@ -1,0 +1,13 @@
+{
+  "request": {
+      "method": "POST",
+      "url": "/v1/google"
+  },
+  "response":{
+    "status":200,
+    "bodyFileName":"responses/google/v16/response_google.json",
+    "headers":{
+       "Content-Type":"application/json"
+    }
+ }
+}
